@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1BEE7"
+    android:orientation="vertical"
+    tools:context=".QuizPageThree">
+
+    <TextView
+        android:id="@+id/quiz3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is 10 times 10?"/>
+
+    <RadioGroup
+        android:id="@+id/quiz3radio"
+        android:layout_marginLeft="34dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="110"/>
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="10"/>
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="100"/>
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="111"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next3"
+        android:layout_marginTop="76dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BA68C8"
+        android:text="@string/next1"
+        android:onClick="nextThree"/>
+
+</LinearLayout>
+

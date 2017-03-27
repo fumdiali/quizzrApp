@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1BEE7"
+    android:orientation="vertical"
+    tools:context="ng.monoverse.quizzr.QuizPageTwo">
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:id="@+id/quiz2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz2"/>
+
+    <RadioGroup
+        android:id="@+id/quiz2radio"
+        android:layout_marginLeft="34dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/q2_option1"/>
+        <RadioButton
+            android:id="@+id/option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/q2_option2"/>
+        <RadioButton
+            android:id="@+id/option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/q2_option3"/>
+        <RadioButton
+            android:id="@+id/option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/q2_option4"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_marginTop="76dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BA68C8"
+        android:text="@string/next1"
+        android:onClick="nextTwo"/>
+</LinearLayout>

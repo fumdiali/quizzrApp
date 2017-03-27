@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quizzr</string>
+    <string name="home_label">Quizzr</string>
+    <string name="startBtn">BEGIN</string>
+    <string name="quiz1"> 1.What is the Capital of Nigeria?</string>
+    <string name="q1_option1"> Lagos</string>
+    <string name="q1_option2"> Benin</string>
+    <string name="q1_option3"> Abuja</string>
+    <string name="q1_option4"> Asaba</string>
+    <string name="next1">NEXT</string>
+    <string name="quiz2"> 2.What is two plus two?</string>
+    <string name="q2_option1"> 22</string>
+    <string name="q2_option2"> 2.2</string>
+    <string name="q2_option3"> 4</string>
+    <string name="q2_option4"> None of the above</string>
+    <string name="next2">NEXT</string>
+
+</resources>
